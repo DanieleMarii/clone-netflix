@@ -1,25 +1,26 @@
 body{
     background: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: white;
 }
 
 header .container{
+    padding: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .logo{
-    font-size: 40px;
-    color: var(--vermelho);
-    font-family: 'Arial Black', Times;
+    width: auto;
+    height: 40px;
 }
 
 header nav a {
+    font-weight: 700;
     margin-right: 15px;
-    font-size: 17px;
+    font-size: 15px;
     text-decoration: none;
     color: #AAA;
 }
@@ -30,8 +31,15 @@ header nav a:hover{
 
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/capa-house.jpg');
-    height: 400px;
+    background: linear-gradient(90deg, rgba(24,24,24,1) 7%,
+    rgba(25,25,25,0.9640231092436975) 12%,
+    rgba(26,26,26,0.9192051820728291) 16%,
+    rgba(30,30,30,0.8883928571428571) 21%,
+    rgba(32,32,32,0.6446953781512605) 25%,
+    rgba(33,33,34,0.5914740896358543) 29%,
+    rgba(33,33,34,0.5914740896358543) 33%,
+    rgba(37,37,38,0.5186449579831933) 37%, rgba(37,37,38,0) 41%), url('../img/breaking-capa.jpg');
+    height: 100vh;
     background-size: cover;
 
     display: flex;
@@ -40,15 +48,46 @@ header nav a:hover{
     align-items: flex-start;
 }
 
+.lista-info{
+    margin-bottom: 5px;
+    color: #AAA;
+}
+
+.lista-info li{
+
+    padding-right: 8px;
+    border-right: 1px solid #AAA;
+    list-style: none;
+    display: inline;
+}
+
+.lista-info a{
+    color: #AAA;
+    text-decoration: none;
+}
+
+.lista-info a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.lista-info li:nth-child(4){
+    border-right: none;
+}
+.serie-logo{
+    margin-bottom: 5%;
+    width: 450px;
+}
+
 .filme-principal .descricao{
-    margin-top: 10px;
-    margin-bottom: 40px;
+    margin-top: 2%;
+    margin-bottom: 30px;
 }
 
 .filme-principal .titulo{
-    margin-top: 15%;
-    font-size: 40px;
-    font-family: 'Trebuchet MS', Arial, sans-serif;
+    margin-bottom: 2%;
+    font-size: 24px;
+    /* font-family: 'Trebuchet MS', Arial, sans-serif; */
 }
 
 .botao{
@@ -86,6 +125,7 @@ header nav a:hover{
 
 .filme-principal .container{
     width: 70%;
+    margin-left: 60px;
 }
 
 .box-filme{
