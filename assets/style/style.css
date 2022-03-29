@@ -40,7 +40,7 @@ header nav a:hover{
     rgba(33,33,34,0.5914740896358543) 29%,
     rgba(33,33,34,0.5914740896358543) 33%,
     rgba(37,37,38,0.5186449579831933) 37%, rgba(37,37,38,0) 41%), url('../img/breaking-capa.jpg');
-    height: 110vh;
+    height: 105vh;
     background-size: cover;
 
     display: flex;
@@ -143,7 +143,7 @@ header nav a:hover{
 
 .titulo-categoria{
     color: #AAA;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 700;
     margin-top: 15px;
     margin-bottom: 10px;
@@ -156,4 +156,8 @@ header nav a:hover{
 
 .carrosel-filmes{
     margin-top: -100px;
+}
+
+.ativo{
+    color: #fff;
 }

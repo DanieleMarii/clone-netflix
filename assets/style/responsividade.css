@@ -1,13 +1,113 @@
 @media screen and (max-width: 700px){
     header .container{
         display: flex;
-        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
     }
 
     .botao{
         margin-top: 5px;
         width: 300px;
         /* height: 60px; */
+    }
+
+    .serie-logo{
+        width: 300px;
+    }
+
+    nav a{
+        display: none;
+    }
+
+    .one,
+    .two,
+    .three{
+        background-color: #fff;
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+
+        transition-duration: 0.3s;
+    }
+
+    .menu-toggle {
+        width: 40px;
+        height: 30px;
+        margin-right: -10px;
+    }
+
+    .menu-section.on {
+        position: absolute;
+        top:0;
+        left:0;
+        
+        width: 100vw;
+        height: 100vh;
+
+        background-color: var(--preto);
+        
+        z-index: 10;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+     .menu-section.on nav {
+        display: block;
+    }
+
+    .menu-section.on .menu-toggle {
+        position: absolute;
+        right: 25px;
+        top: 15px;
+    }
+
+    .menu-section.on .menu-toggle .one {
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+
+    .menu-section.on .menu-toggle .two {
+        opacity: 0;
+    }
+
+    .menu-section.on .menu-toggle .three {
+        transform: rotate(-45deg) translate(8px, -9px);
+    }
+
+    .menu-section.on nav a {
+        text-align: center;
+        display: block;
+    }
+
+    .menu-section.on nav a{
+        transition-duration: 0.5s;
+        font-size: 3rem;
+        line-height: 4rem;
+        display: block;
+        
+    }
+
+    
+    /* .filme-principal{
+        background: linear-gradient(90deg, rgba(24,24,24,1) 7%,
+        rgba(25,25,25,0.9640231092436975) 12%,
+        rgba(26,26,26,0.9192051820728291) 16%,
+        rgba(30,30,30,0.8883928571428571) 21%,
+        rgba(32,32,32,0.6446953781512605) 25%,
+        rgba(33,33,34,0.5914740896358543) 29%,
+        rgba(33,33,34,0.5914740896358543) 33%,
+        rgba(37,37,38,0.5186449579831933) 37%, rgba(37,37,38,0) 41%), url('../img/breaking-capa-mobile.jpg');
+        background-repeat: no-repeat;
+        height: 110vh;
+    } */
+
+    .filme-principal .titulo{
+        font-size: 20px;
+    }
+
+    .filme-principal .descricao{
+        font-size: 15px;
     }
 }
 
