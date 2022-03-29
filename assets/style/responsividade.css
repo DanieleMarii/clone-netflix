@@ -1,6 +1,8 @@
 @media screen and (max-width: 700px){
+    header{
+        width: 100vw;
+    }
     header .container{
-        display: flex;
         justify-content: space-between;
         gap: 10px;
     }
@@ -89,7 +91,7 @@
     }
 
     
-    /* .filme-principal{
+    .filme-principal{
         background: linear-gradient(90deg, rgba(24,24,24,1) 7%,
         rgba(25,25,25,0.9640231092436975) 12%,
         rgba(26,26,26,0.9192051820728291) 16%,
@@ -97,10 +99,10 @@
         rgba(32,32,32,0.6446953781512605) 25%,
         rgba(33,33,34,0.5914740896358543) 29%,
         rgba(33,33,34,0.5914740896358543) 33%,
-        rgba(37,37,38,0.5186449579831933) 37%, rgba(37,37,38,0) 41%), url('../img/breaking-capa-mobile.jpg');
+        rgba(37,37,38,0.5186449579831933) 37%, rgba(37,37,38,0) 41%), url('../img/breaking-capa.jpg');
         background-repeat: no-repeat;
         height: 110vh;
-    } */
+    }
 
     .filme-principal .titulo{
         font-size: 20px;
@@ -109,6 +111,18 @@
     .filme-principal .descricao{
         font-size: 15px;
     }
+
+    .lista-info{
+        font-size: 15px
+    }
+
+    .botao{
+        font-size: 10.5px;
+    }
+
+    .carrosel-filmes{
+    margin-top: -120px;
+}
 }
 
 @media screen and (min-width:1000px) {
