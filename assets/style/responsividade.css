@@ -1,13 +1,14 @@
-@media screen and (max-width: 800px){
-    .filmes img{
-        width: 150px;
+@media screen and (max-width: 1000px){
+     .descricao{
+        width: 50%;
     }
-    .filmes{
 
-        grid-template-columns: repeat(4, 150px);
+    .filmes{
+        grid-template-columns: repeat(3, 1fr);
     }
 }
-@media screen and (max-width: 700px){
+
+@media screen and (max-width: 750px){
     header{
         width: 100vw;
     }
@@ -133,16 +134,14 @@
     margin-top: -120px;
     }
 
-    .filmes img{
-        width: 180px;
-    }
     .filmes{
-        grid-template-columns: repeat(3, 180px);
-    }
+         grid-template-columns: repeat(2, 1fr
+         );
+     }
 }
 
-@media screen and (min-width:1000px) {
-    .descricao{
-        width: 50%;
+@media screen and (max-width: 550px) {
+    .filmes{
+        grid-template-columns: 1fr;
     }
 }

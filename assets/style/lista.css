@@ -1,14 +1,19 @@
+html, body{
+    overflow-x: hidden;
+}
+
 header{
     position: static;
 }
 
 .filmes img{
-    width: 235px;
+    width: 100%;
 }
 
 .filmes{
-    width: 90%;
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(5, 235px);
-    gap: 30px 10px;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 30px;
+    column-gap: 15px;
 }
