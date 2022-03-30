@@ -1,0 +1,14 @@
+header{
+    position: static;
+}
+
+.filmes img{
+    width: 235px;
+}
+
+.filmes{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(5, 235px);
+    gap: 30px 10px;
+}
