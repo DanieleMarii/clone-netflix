@@ -17,3 +17,7 @@ header{
     row-gap: 30px;
     column-gap: 15px;
 }
+
+.titulo-categoria{
+    color: #fff;
+}

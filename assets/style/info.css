@@ -1,0 +1,123 @@
+.info{
+    line-height: 22px;
+}
+.title{
+    color: #aaa;
+}
+
+.descricao{
+    margin-top: 2.5%!important ;
+}
+
+.botoes{
+    margin-top: 4.5%!important;
+}
+
+.premio{
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    margin-top: 40px;
+    margin-bottom: 45px;
+    padding: 25px;
+    text-align: center;
+    line-height: 22px;
+    font-size: 16px;
+    color: #aaa;
+}
+
+
+.section-header{
+    display: block;
+}
+
+.header-titulo{
+    display: inline-block;
+    font-size: 30px;
+}
+
+.header-serie-name{
+    border-left: 1px solid #aaa;
+    color: #aaa;
+    margin: 15px 0px 10px 9px;
+    padding-left: 15px;
+    font-size: 20px;
+    display: inline-block;
+}
+ 
+.temporadas select{
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    font-size: 20px;
+    line-height: 27px;
+    border: none;
+    background: var(--preto);
+    color: #fff;
+}
+
+.temporadas select:focus{
+    box-shadow: none;
+    outline: 0;
+
+}
+
+option{
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+
+.descricao-temporada h3{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.descricao-temporada p{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: #aaa;
+    font-size: 16px;
+}
+
+.section-episodios{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 10px;
+}
+
+.episodios-container img{
+    width: 400px;
+    border-bottom: 1px solid var(--preto);
+}
+
+.episodios-container{
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2,auto);
+    row-gap: 5px;
+}
+
+.episodios-container img{
+    grid-column: span 2;
+}
+
+.number-ep{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.time-ep{
+    font-size: 16px;
+    color: #aaa;
+    justify-self: end;
+}
+
+.descricao-ep{
+    margin: 12px 0;
+    text-align: justify;
+    font-size: 12px;
+    color: #aaa;
+    grid-column: span 2;
+}
