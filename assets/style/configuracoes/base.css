@@ -1,0 +1,33 @@
+:root{
+    font-size: 62.5%;
+    --vermelho: #E50914;
+    --preto: #141414;
+
+    /* fonte */
+    /* --fonte-padrão: 'Times New Roman', Times, serif;
+    --fonte-logo:  */
+}
+
+body {
+    background: var(--preto);
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.titulo-categoria {
+    color: #AAA;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.titulo-categoria:hover {
+    color: #fff;
+}

@@ -1,41 +1,3 @@
-body{
-    background: var(--preto);
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: white;
-}
-
-header{
-    top:0;
-    position: fixed;
-    width: 100vw;
-}
-
-header .container{
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-.logo{
-    width: auto;
-    height: 40px;
-    margin-right: 35px;
-}
-
-header nav a {
-    font-weight: 700;
-    margin-right: 15px;
-    font-size: 15px;
-    text-decoration: none;
-    color: #AAA;
-}
-
-header nav a:hover{
-    color: #fff;
-}
-
 .filme-principal{
     font-size: 16px;
     background: linear-gradient(90deg, rgba(24,24,24,1) 7%,
@@ -134,11 +96,6 @@ header nav a:hover{
 
 }
 
-.container{
-    margin-left: 60px;
-    margin-right: 60px;
-}
-
 .filme-principal .container{
     width: 70%;
     margin-left: 60px;
@@ -150,19 +107,6 @@ header nav a:hover{
     display: block;
 }
 
-.titulo-categoria{
-    color: #AAA;
-    font-size: 2rem;
-    font-weight: 700;
-    margin-top: 15px;
-    margin-bottom: 10px;
-    transition: 0.3s;
-}
-
-.titulo-categoria:hover{
-    color: #fff;
-}
-
 .carrosel-filmes{
     margin-top: -100px;
 }
@@ -172,24 +116,7 @@ header nav a:hover{
 }
 
 .mudaCor{
+    transition: 0.5s;
     width: 100vw;
     background: var(--preto);
-}
-
-.video{
-    background: linear-gradient(90deg, rgba(24,24,24,1) 7%,
-    rgba(25,25,25,0.9640231092436975) 12%,
-    rgba(26,26,26,0.9192051820728291) 16%,
-    rgba(30,30,30,0.8883928571428571) 21%,
-    rgba(32,32,32,0.6446953781512605) 25%,
-    rgba(33,33,34,0.5914740896358543) 29%,
-    rgba(33,33,34,0.5914740896358543) 33%,
-    rgba(37,37,38,0.5186449579831933) 37%, rgba(37,37,38,0) 41%);
-    /* width: 100%; */
-
-}
-
-video{
-    z-index: -1;
-    width: 100vw;
 }
