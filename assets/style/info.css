@@ -82,19 +82,21 @@ option{
 }
 
 .section-episodios{
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, auto);
-    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
 }
 
 .episodios-container img{
-    width: 400px;
+    width: 100%;
     border-bottom: 1px solid var(--preto);
 }
 
 .episodios-container{
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, 200px);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2,auto);
     row-gap: 5px;
 }
