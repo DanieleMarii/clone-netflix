@@ -26,7 +26,6 @@
     .botao{
         margin-top: 5px;
         width: 300px;
-        /* height: 60px; */
     }
 
     .serie-logo{
@@ -147,6 +146,26 @@
 }
 
 @media screen and (max-width: 550px) {
+    .filme-principal {
+        background: url('../../img/breaking-capa550.png');
+        background-repeat: no-repeat;
+        height: 110vh;
+    }
+
+    /* .alinhamento-mobile-index{
+        margin-top: 70
+        %;
+    } */
+
+    .alinhamento-mobile{
+        margin-top: 75%;
+    }
+
+    .premio{
+        margin-top: 75px;
+        margin-bottom: 40px;
+    }
+
     .filmes{
         grid-template-columns: 1fr;
     }
@@ -154,4 +173,13 @@
     .section-episodios{
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .descricao {
+        width: 100%;
+    }
+
+    .carrosel-filmes{
+        margin-top: 13%;
+    }
+        
 }
